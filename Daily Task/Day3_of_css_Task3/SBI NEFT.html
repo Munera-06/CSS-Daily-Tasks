@@ -1,0 +1,158 @@
+<html>
+<head>
+	<title> SBI Online NEFT Transfer</title>
+</head>
+<body>
+<form>
+	<style>
+		h3{
+			color:#0952C8;
+		}
+		h5{
+			color:red;
+		}
+		.cls{
+			color:White;
+			border-style:double;
+			background-color:#0952C8;
+			height:20;
+			padding:20;
+		}
+		h3{
+			border: 2px hidden ;
+			background-color:#BFE1F8;
+			height:20;
+			padding:20;
+		}
+		body{
+			outline-style:solid;
+			padding:20px;
+		}
+		h4{
+			color:blue;
+		}
+		.acno{
+			border:2px solid black;
+			margin:0 20px;
+			padding:3px;
+		}
+		.amt{
+			border:2px solid black;
+			margin:0 70px;
+			padding:3px;
+		}
+		select{
+			border:2px solid black;
+			margin:0 70px;
+			padding:3px;
+		}
+		.ac{
+			border:2px solid black;
+			margin:0 20px;
+			padding:3px;
+		}
+		.sub{
+			border:2px solid black;
+			margin:0 25px;
+			padding:3px;
+			width:85;
+		}
+		.res{
+			border:2px solid black;
+			margin:0 25px;
+			padding:3px;
+			width:85;
+		}
+		.000{
+			border:hidden;
+			margin:0 100px;
+			padding:3px;
+		}
+		.dot{
+			border:hidden;
+			margin-left:130px;
+		}
+		
+	</style>
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFhVaChzEumzKP1XRiByKLtNJtq9e6wYrB3WhOCFMeiw&s=10" width=110 height=70></img><br>
+	<h3 class="cls">Your here:/ Payment Transfer / Fund Transfer / Within SBI Transfer</h3>
+	<h3>Within SBI-Account for Other</h3>
+	<hr>
+	<h5 align ="right">* indicates mandatory</h5>
+	<h4>Select a account from which you wish to transfer</h4>
+	<table border = 5 height="150" width="550">
+	<tr align=center>
+	<th>Account no</th>
+	<th>Account Type</th>
+	<th>Branch</th>
+	<th>Balance</th>
+	</tr>
+	<tr align=center>
+	<td><input type="radio" id="acno" name="ac no">00003031789xxx</td>
+	<td> Saving Account </td>
+	<td> Bhalapur </td>
+	<td>45,000</td>
+	</tr>
+	</table><br><br>
+	<label> Account Number </label>
+	<input class="acno" type= "number"><br><br>
+	<label>Amount*</label>
+	<input class="amt" type="text" id="rs" name="rs">
+	<h4>Click here to add a new intra-bank beneficiary</h4>
+	<label>Purpose*</label>
+	<select>
+		<option> --Select Purpose--</option>
+		<option> Rent</option>
+		<option> Gift to relative & Friends</option>
+		<option>Pocket Money</option>
+		<option> None of the Above</option>
+	</select>
+	<h4>Select the intra-bank beneficiary account</h4>
+	<table border=4 height="150" width="650">
+	<tr align=center>
+	<th>Account no</th>
+	<th>Intra-Bank beneficiary Name</th>
+	<th>Branch</th>
+	<th>Limit</th>
+	<th>   </th>
+	</tr>
+	<tr align=center>
+	<td><input type="radio" id="acno" name="ac no">00007890563xxx</td>
+	<td>Rajan</td>
+	<td>Exhibition</td>
+	<td>100000</td>
+	<td><input type="Submit" Value="Change">
+	</tr>
+	<tr align=center>
+	<td><input type="radio" id="acno" name="ac no">00005678767xxx</td>
+	<td>Kumar</td>
+	<td>Bhagalpur</td>
+	<td>10000</td>
+	<td><input type="Submit" Value="Change">
+	</tr>
+	<tr align=center>
+	<td><input type="radio" id="acno" name="ac no">00006543678xxx</td>
+	<td>Kumari</td>
+	<td>Desri</td>
+	<td>25000</td>
+	<td><input type="Submit" Value="Change">
+	</tr>
+	<tr align=center>
+	<td><input type="radio" id="acno" name="ac no">00008906544xxx</td>
+	<td>Sen</td>
+	<td>PB Salt Lake</td>
+	<td>10000</td>
+	<td><input type="Submit" Value="Change">
+	</table><br><br>
+	<label>Account Number</label>
+	<input class="ac"type= "number">
+	<h4><font color="blue">Select Payment Option</font></h4>
+	<label>Payment Option*</label><br><br>
+	<input class="dot" type="radio" id="pay" name="pay">Pay Now<br><br>
+	<input class="dot" type="radio" id="pay" name="pay">Schedule Later<br><br>
+	<input class="dot" type="radio" id="pay" name="pay">Standing Instruction<br><br>
+	<input class="sub" type="Submit">
+	<input class="res" type="Reset" Value="Cancel">
+</form>
+</body>
+</html>
