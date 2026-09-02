@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Green Leaf Plant Shop</title>
+
+<style>
+body{
+    font-family:Arial,sans-serif;
+    margin:0;
+    background:#f4f8f2;
+    color:#333;
+}
+
+header{
+    background:#4caf50;
+    color:white;
+    text-align:center;
+    padding:35px;
+}
+
+header h1{
+    margin:0;
+    font-size:35px;
+}
+
+header p{
+    margin-top:10px;
+}
+
+nav{
+    background:white;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#2e7d32;
+    margin:15px;
+}
+
+section{
+    padding:30px;
+    text-align:center;
+}
+
+h2{
+    color:#2e7d32;
+}
+
+.plants{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+}
+
+.card{
+    background:white;
+    width:250px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 8px #ccc;
+}
+
+.plant-image{
+    background:#dcedc8;
+    padding:30px;
+    font-size:60px;
+    border-radius:8px;
+}
+
+.card h3{
+    color:#388e3c;
+}
+
+.card p{
+    line-height:1.5;
+}
+
+.price{
+    display:block;
+    color:#e65100;
+    font-size:20px;
+    font-weight:bold;
+    margin:15px;
+}
+
+button{
+    background:#4caf50;
+    color:white;
+    border:0;
+    padding:10px 20px;
+    border-radius:5px;
+}
+
+.about{
+    background:white;
+    margin:20px;
+    padding:25px;
+    border-radius:10px;
+}
+
+footer{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:700px){
+    .plants{
+        flex-direction:column;
+        align-items:center;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Green Leaf</h1>
+    <p>Beautiful Plants For Your Home</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Plants</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+    <h2>Our Plants</h2>
+
+    <div class="plants">
+
+        <div class="card">
+            <div class="plant-image">🌿</div>
+            <h3>Money Plant</h3>
+            <p>Easy to grow indoor plant.</p>
+            <span class="price">₹299</span>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="card">
+            <div class="plant-image">🌱</div>
+            <h3>Snake Plant</h3>
+            <p>Beautiful plant with low care.</p>
+            <span class="price">₹399</span>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="card">
+            <div class="plant-image">🌸</div>
+            <h3>Peace Lily</h3>
+            <p>Lovely flowering indoor plant.</p>
+            <span class="price">₹499</span>
+            <button>Buy Now</button>
+        </div>
+
+    </div>
+</section>
+
+<section class="about">
+    <h2>About Us</h2>
+    <p>
+        Green Leaf provides beautiful and healthy plants
+        for homes and offices.
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Green Leaf Plant Shop</p>
+</footer>
+
+</body>
+</html>
+```
